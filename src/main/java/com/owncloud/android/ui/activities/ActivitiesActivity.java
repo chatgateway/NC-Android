@@ -113,8 +113,6 @@ public class ActivitiesActivity extends DrawerActivity implements ActivityListIn
         adapter = new ActivityListAdapter(this,
                                           getUserAccountManager(),
                                           this,
-                                          storageManager,
-                                          getCapabilities(),
                                           clientFactory,
                                           false);
         binding.list.setAdapter(adapter);
